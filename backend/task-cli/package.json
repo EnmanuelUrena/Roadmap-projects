@@ -1,0 +1,31 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "bin": {
+    "task-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/index.js",
+    "start:dev": "npx tsc && node ./dist/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Enmanuel Ureña Vargas",
+  "license": "MIT",
+  "description": "A command-line interface for managing and automating tasks. Supports adding, listing, and removing tasks with simple commands.",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.5.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  }
+}
