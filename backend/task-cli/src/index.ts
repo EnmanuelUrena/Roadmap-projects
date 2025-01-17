@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { addTask, tasks, updateTask, updateTaskStatus, deleteTask, readTasks } from './task.js'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'

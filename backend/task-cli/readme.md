@@ -7,7 +7,8 @@ A command-line interface for managing and automating tasks. Supports adding, lis
 To use Task-CLI, first, clone the repository and then install the necessary dependencies. After that, you can use the npm link command to make the task-cli command available globally on your system.
 
 ```cli
-git clone https://github.com/EnmanuelUrena/task-cli.git
+git clone https://github.com/EnmanuelUrena/roadmap-projects.git
+cd backend
 cd task-tracker-cli
 npm install
 npm link
